@@ -1,6 +1,8 @@
 import About from '@/components/about/About'
 import Dashboard from '@/components/dashboard/dashboard'
 import Navbar from '@/components/navbar/navbar'
+import Service from '@/components/service/Service'
+import Skill from '@/components/skill/Skill'
 
 const Home= ()=>{
 return(
@@ -12,6 +14,8 @@ return(
    <main className='main'>
     <Dashboard/>
     <About/>
+    <Skill/>
+    <Service/>
     </main> 
   </>
 )
