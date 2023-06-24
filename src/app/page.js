@@ -1,8 +1,11 @@
 import About from '@/components/about/About'
+import Contact from '@/components/contact/Contact'
 import Dashboard from '@/components/dashboard/dashboard'
 import Navbar from '@/components/navbar/navbar'
+import Qualification from '@/components/qualification/Qualification'
 import Service from '@/components/service/Service'
 import Skill from '@/components/skill/Skill'
+import Testimoni from '@/components/Testimoni/Testimoni'
 
 const Home= ()=>{
 return(
@@ -16,6 +19,9 @@ return(
     <About/>
     <Skill/>
     <Service/>
+    <Qualification/>
+    <Testimoni/>
+    <Contact/>
     </main> 
   </>
 )
